@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 30px 0;
+    font-family: sans-serif;
+    position: relative;
+    border: black 1px solid;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+.nav{
+    font-size: 24px;
+    
+}
+.para{
+    font-size: 20px;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: absolute;
+right: 900px;
+top: -1px;
+
+}
+.navbar{
+    font-size: 24px;
+    border: 2px solid black;
+    
+
+}
+.nav-item{
+    margin: 20px;
+}
+/* navbar- lvha */
+.nav-item:link{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: blue;
+    
+
+}
+.nav-item:active{
+    background-color: black;
+    color: yellow;
+}
+/* inline-block element means it remain inline but works as block element */
